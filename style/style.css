@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&family=Pacifico&family=Satisfy&display=swap');
+
+.banner{
+    width: 100%;
+    height: 700px;
+    background-image: url(../male-african-american-chef-with-tasty-dish-yellow_392895-19948.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+.sticky{
+    position: sticky;
+        top: 50px;
+    background-color: white;
+    z-index: 9999
+}
+
+.banner > div{
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+}
+
+.banner h1{
+    font-size: 4.5rem;
+
+}
+
+.banner p {
+    font-size: large;
+
+}
+
+.banner button{
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+nav{
+    background-color: red;
+    color: white;
+    padding: 10px;
+
+}
+
+nav ul{
+    display: flex;
+    column-gap: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+.one{
+    display: flex;
+    column-gap: 5%;
+}
+
+.one img{
+    border: double 9px white;
+    border-radius: 20px 0px 20px 0px;
+    margin-bottom: 5%;
+}
+.two{
+    display: flex;
+    column-gap: 2%;
+}
+.mission{
+    padding: 3%;
+    background-color: red;
+    border-radius: 30px 30px 0 30px;
+}
+.vision{
+    padding: 3%;
+    background-color: yellow;
+    color: black;
+    border-radius: 30px 30px 30px 0;
+}
+.service{
+    text-align: center;
+    padding: 5%;
+}
+.service h2{
+    font-size: 3vw;
+    color: red;
+}
+.service section{
+    display: flex;
+    column-gap: 3%;
+}
+.service button{
+    background-color: red;
+    color: white;
+    padding: 7px 50px; 
+    border-radius: 9px;
+}
+.chef{
+    text-align: center;
+    padding: 5%;
+}
+.chef section{
+    display: flex;
+    column-gap: 3%;
+}
+.chef h2{
+    text-align: center;
+    font-size: 3vw;
+}
+.chef img{
+    border-radius: 50%;
+
+}
+.menu{
+
+    padding: 10%;
+}
+.menu-sec1 h5{
+    text-align: center;
+    position: relative;
+    width: 600px;
+    margin: auto;
+    font-family: 'Pacifico', cursive;
+color: orangered;}
+
+
+.menu-sec1 h5:before{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: block;
+    background-color: orangered;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    z-index: -2;
+
+}
+
+.menu-sec1 h5:after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: block;
+    background-color: orangered;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    z-index: -2;
+
+}
+
+.menu-sec1 span{
+    background-color: white;
+    padding: 0 5px;
+    
+}
+
+.menu-sec1 h3{
+
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.arrow-up{
+    background-color: white;
+    width: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.menu-sec2 svg{
+    width: 40px;
+    color: orangered;
+}
+
+.menu-sec2{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-sec2 aside{
+
+    display: flex;
+    column-gap: 3%;
+    align-items: center;
+    border-bottom: 1px solid orangered;
+    padding: 0px 2%;
+}
+
+.menu-sec2 aside:hover{
+    border-bottom: 3px solid orangered;
+    padding: 0px 2%;
+}
+
+.menu-sec3{
+display: flex;
+column-gap: 2%;
+
+}
+
+.menu-sec3 div{
+
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-sec3 figure{
+    flex: 1;
+    margin: 0px;
+
+}
+
+.menu-sec3 summary{
+    flex: 4;
+}
+
+.menu-sec3 article{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px){
+    
+    .chef section{
+    display: block;
+    margin-bottom: 20px;
+        width: 100%
+}
+    
+    1
+}
+
+@media screen and (max-width: 2000px){
+    
+    .chef section{
+    display: block;
+    margin-bottom: 20px;
+        width: 100%
+}
+    
+    1
+}
